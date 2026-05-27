@@ -1,0 +1,48 @@
+# Archivos compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Carpetas de compilación
+target/
+bin/
+build/
+out/
+
+# Archivos de log
+*.log
+logs/
+
+# Archivos de configuración local (con contraseñas)
+*.properties
+config.properties
+db.properties
+
+# Archivos del IDE (VS Code, Eclipse, IntelliJ)
+.vscode/
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+.metadata/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos generados por tu programa
+data/
+examenes_generados/
+*.txt
+
+# Base de datos local (no subir archivos .db)
+*.db
+*.sqlite
+
+# Archivos temporales
+*.tmp
+*.swp
+*~
